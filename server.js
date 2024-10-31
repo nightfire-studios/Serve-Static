@@ -6,7 +6,7 @@ const PORT = process.env.PORT || '3001'
 
 // // Root route serves the HTML file
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+    res.sendFile(path.join(__dirname, 'dist', 'index.html'));
 });
 
 // Serve static files from the "public" directory
