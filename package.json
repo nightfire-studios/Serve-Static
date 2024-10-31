@@ -2,8 +2,10 @@
   "name": "serve-static",
   "version": "1.0.0",
   "description": "",
+  "source":"src/index.html",
   "scripts": {
     "start": "node server.js",
+    "dev":"parcel",
     "build": "parcel build public/index.html --dist-dir dist"
   },
   "keywords": [],
